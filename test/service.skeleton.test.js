@@ -1,4 +1,4 @@
-var options = {test:'ein kleiner Test'},
+var options = {loggerjs: {logfileDirectory:'./test'}},
     skeleton = require('../lib/service-skeleton')(options);
 
 

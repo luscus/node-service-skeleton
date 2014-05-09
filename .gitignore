@@ -2,6 +2,7 @@ node_modules/
 bower_components/
 config/runtime.json
 npm-debug.log
+test/service-skeleton.log
 .git/
 .DS_Store
 *~

@@ -2,7 +2,7 @@
     "author": "https://github.com/luscus/node-service-skeleton/graphs/contributors",
     "name": "service-skeleton",
     "description": "The 'service-skeleton' gives any Node service some basic functionalities such as: logging, metrics and probing",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "keywords": [
         "service-skeleton",
         "logging",
