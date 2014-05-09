@@ -25,7 +25,8 @@ then hit
 
     var options = {
       loggerjs: {
-        logLevel: 'INFO'
+        logLevel: 'INFO',
+        logfileDirectory : 'path_to_dir'
         /*... something ...*/
       },
       metrics: {

@@ -1,30 +1,36 @@
 {
-  "author": "https://github.com/luscus/node-service-skeleton/graphs/contributors",
-  "name": "service-skeleton",
-  "description": "The 'service-skeleton' gives any Node service some basic functionalities such as: logging, metrics and probing",
-  "version": "0.0.1",
-  "keywords" : ["service-skeleton", "logging", "metrics", "probe"],
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/luscus/node-service-skeleton.git"
-  },
-  "homepage" : "https://github.com/luscus/node-service-skeleton",
-  "bugs" : "https://github.com/luscus/node-service-skeleton/issues",
-  "main": "./lib/service-skeleton.js",
-  "dependencies": {
-    "service-probe" : "0.1.x",
-    "service-metrics": "0.1.x",
-    "loggerjs": "0.0.x"
-  },
-  "devDependencies": {
-    "grunt": "0.4.x",
-    "grunt-contrib-jshint": "0.10.x",
-    "load-grunt-tasks": "0.4.x"
-  },
-  "optionalDependencies": {},
-  "licenses" : [
-    { "type" : "GPL",
-      "url" : "https://github.com/luscus/node-service-skeleton/blob/master/COPYING"
-    }
-  ]
+    "author": "https://github.com/luscus/node-service-skeleton/graphs/contributors",
+    "name": "service-skeleton",
+    "description": "The 'service-skeleton' gives any Node service some basic functionalities such as: logging, metrics and probing",
+    "version": "0.0.2",
+    "keywords": [
+        "service-skeleton",
+        "logging",
+        "metrics",
+        "probe"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/luscus/node-service-skeleton.git"
+    },
+    "homepage": "https://github.com/luscus/node-service-skeleton",
+    "bugs": "https://github.com/luscus/node-service-skeleton/issues",
+    "main": "./lib/service-skeleton.js",
+    "dependencies": {
+        "service-probe": "0.1.x",
+        "service-metrics": "0.1.x",
+        "loggerjs": "0.0.x"
+    },
+    "devDependencies": {
+        "grunt": "0.4.x",
+        "grunt-contrib-jshint": "0.10.x",
+        "load-grunt-tasks": "0.4.x"
+    },
+    "optionalDependencies": {},
+    "licenses": [
+        {
+            "type": "GPL",
+            "url": "https://github.com/luscus/node-service-skeleton/blob/master/COPYING"
+        }
+    ]
 }
