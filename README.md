@@ -1,4 +1,12 @@
-# [node-service-skeleton](https://github.com/luscus/node-service-skeleton)
+# [service-skeleton](https://github.com/luscus/service-skeleton)
+
+[![NPM](https://nodei.co/npm/service-skeleton.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/service-skeleton/)
+
+[![NPM version](https://img.shields.io/npm/v/service-skeleton.svg?style=flat)](https://www.npmjs.com/package/service-skeleton "View this project on NPM")
+[![David](https://img.shields.io/david/luscus/node-service-skeleton.svg?style=flat)](https://david-dm.org/luscus/node-service-skeleton)
+[![David](https://img.shields.io/david/dev/luscus/node-service-skeleton.svg?style=flat)](https://david-dm.org/luscus/node-service-skeleton#info=devDependencies)
+[![NPM license](https://img.shields.io/npm/l/node-service-skeleton.svg?style=flat)](https://www.npmjs.com/package/service-skeleton "View this project on NPM")
+[![Omniref](https://img.shields.io/badge/Omniref-docs-orange.svg?style=flat)](https://www.omniref.com/js/npm/service-skeleton)
 
 The 'service-skeleton' gives any Node service some basic functionalities such as: logging, metrics and probing.
 
