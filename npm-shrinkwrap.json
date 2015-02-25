@@ -1,11 +1,10 @@
 {
   "name": "service-skeleton",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "dependencies": {
     "loggerjs": {
       "version": "0.0.14",
       "from": "loggerjs@0.0.14",
-      "resolved": "https://registry.npmjs.org/loggerjs/-/loggerjs-0.0.14.tgz",
       "dependencies": {
         "request": {
           "version": "2.34.0",
@@ -118,25 +117,28 @@
       }
     },
     "service-metrics": {
-      "version": "0.1.11",
-      "from": "service-metrics@0.1.11",
-      "resolved": "https://registry.npmjs.org/service-metrics/-/service-metrics-0.1.11.tgz",
+      "version": "0.1.12",
+      "from": "service-metrics@0.1.12",
+      "resolved": "https://registry.npmjs.org/service-metrics/-/service-metrics-0.1.12.tgz",
       "dependencies": {
         "q": {
           "version": "2.0.3",
-          "from": "q@2.0.x",
+          "from": "q@2.0.3",
           "dependencies": {
             "asap": {
               "version": "2.0.1",
-              "from": "asap@^2.0.0"
+              "from": "asap@2.0.1",
+              "resolved": "https://registry.npmjs.org/asap/-/asap-2.0.1.tgz"
             },
             "pop-iterate": {
               "version": "1.0.1",
-              "from": "pop-iterate@^1.0.1"
+              "from": "pop-iterate@1.0.1",
+              "resolved": "https://registry.npmjs.org/pop-iterate/-/pop-iterate-1.0.1.tgz"
             },
             "weak-map": {
               "version": "1.0.5",
-              "from": "weak-map@^1.0.5"
+              "from": "weak-map@1.0.5",
+              "resolved": "https://registry.npmjs.org/weak-map/-/weak-map-1.0.5.tgz"
             }
           }
         }

@@ -3,7 +3,7 @@
   "name": "service-skeleton",
   "license": "MIT",
   "description": "The 'service-skeleton' gives any Node service some basic functionalities such as: logging, metrics and probing",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "keywords": [
     "service-skeleton",
     "logging",
@@ -19,7 +19,7 @@
   "main": "./lib/service-skeleton.js",
   "dependencies": {
     "service-probe": "0.1.6",
-    "service-metrics": "0.1.11",
+    "service-metrics": "0.1.12",
     "loggerjs": "0.0.14"
   },
   "devDependencies": {
