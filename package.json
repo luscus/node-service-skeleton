@@ -20,12 +20,12 @@
   "dependencies": {
     "service-probe": "0.1.6",
     "service-metrics": "0.1.13",
-    "loggerjs": "0.0.14"
+    "loggerjs": "0.1.0"
   },
   "devDependencies": {
-    "grunt": "0.4.x",
-    "grunt-contrib-jshint": "0.10.x",
-    "load-grunt-tasks": "0.4.x"
+    "grunt": "~1.0.1",
+    "grunt-contrib-jshint": "~1.1.0",
+    "load-grunt-tasks": "~3.5.2"
   },
   "optionalDependencies": {},
   "licenses": [
