@@ -20,7 +20,8 @@
   "dependencies": {
     "service-probe": "0.1.6",
     "service-metrics": "0.1.13",
-    "loggerjs": "0.0.14"
+    "loggerjs": "0.0.14",
+    "snyk": "^1.88.1"
   },
   "devDependencies": {
     "grunt": "0.4.x",
@@ -33,5 +34,10 @@
       "type": "GPL",
       "url": "https://github.com/luscus/node-service-skeleton/blob/master/COPYING"
     }
-  ]
+  ],
+  "scripts": {
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
+  },
+  "snyk": true
 }
